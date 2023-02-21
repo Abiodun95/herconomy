@@ -1,0 +1,63 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  padding: 40px;
+}
+.left-div {
+  flex: 40%;
+}
+.right-div {
+  flex: 60%;
+  padding: 70px;
+}
+#login {
+  margin-top: 25px;
+  margin-bottom: 10px;
+}
+input {
+  width: 100%;
+  padding: 25px;
+  margin-bottom: 30px;
+  outline: none;
+  /* border: none; */
+}
+.icon-input {
+  position: relative;
+}
+.fa-eye-slash {
+  position: absolute;
+  right: 20px;
+  top: 25px;
+}
+.btn-section {
+  display: flex;
+  align-items: center;
+  margin-top: 25px;
+  font-size: 20px;
+  justify-content: space-between;
+  margin-bottom: 25px;
+}
+button {
+  padding: 15px 35px;
+  border-radius: 0.9rem;
+  background-color: orange;
+  color: black;
+  font-size: 20px;
+}
+
+a{
+  color: orange;
+}
+#forget-password{
+  font-size: 20px;
+}
+@media (max-width :500px) {
+.right-div{
+  flex-direction: column;
+}  
+  
+}

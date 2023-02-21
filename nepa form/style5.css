@@ -1,0 +1,83 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  width: 30%;
+  background-color: #ffffff;
+  height: vh;
+  margin: 0 auto;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  margin-top: 60px;
+  padding: 50px 40px;
+}
+.form-sect {
+  margin-top: 20px;
+}
+input {
+  width: 100%;
+  padding: 20px;
+  margin-top: 5px;
+  /* border: none; */
+  /* outline: none; */
+}
+#forget {
+  margin-top: 30px;
+  color: blue;
+  font-size: 20px;
+}
+#input-text {
+  margin-top: 30px;
+}
+button {
+  margin-top: 20px;
+  /* width: 15%; */
+  padding: 1.5rem;
+  border-radius: 0.5rem;
+  background: rgb(47, 87, 206);
+  color: #ffffff;
+}
+#or-sect {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 24px;
+}
+#word {
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.icon {
+  margin-right: 15px;
+  margin-bottom: 20px;
+}
+.fa-linkedin-square {
+  font-size: 30px;
+  border: 1px solid black;
+  padding: 25px 35px;
+  color: darkturquoise;
+  margin-right: 15px;
+}
+.fa-google {
+  font-size: 30px;
+  border: 1px solid black;
+  padding: 25px 35px;
+  margin-right: 15px;
+}
+.fa-facebook-square {
+  font-size: 30px;
+  border: 1px solid black;
+  padding: 25px 35px;
+  margin-right: 15px;
+  color: royalblue;
+}
+.fa-github {
+  font-size: 30px;
+  border: 1px solid black;
+  padding: 25px 35px;
+  margin-right: 15px;
+  /* gap: 1rem; */
+}
+.last-text {
+  text-align: center;
+}

@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container{
+margin-top: 70px;
+padding: 20px;
+width: 50%;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+height: vh;
+margin: 0 auto;
+margin-top: 150px;
+}
+input{
+    width: 100%;
+    padding: 10px;
+    /* margin-bottom: 1rem; */
+    /* border: 1px solid #e2e2ea; */
+    /* border-radius: 10px; */
+}
+.name{
+    display: flex;
+    gap: 0.6rem;
+    margin-bottom: 20px;
+}
+.others{
+    display: flex;
+    gap: 0.6rem;
+}
